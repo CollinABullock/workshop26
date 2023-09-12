@@ -35,9 +35,9 @@ export default function ContactList({contacts, SetSelectedContactID}) {
       </thead>
       <tbody>
         <tr>
-          <td>Email</td>
-          <td>Phone</td>
-          <td>Name</td>
+          <td className="subheader">Email</td>
+          <td className="subheader">Phone</td>
+          <td className="subheader">Name</td>
         </tr>
         {
           contacts.map((contact) => {
